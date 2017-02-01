@@ -27,7 +27,9 @@
       var toBuyItems =
         [{name: "Cookies", quantity: 10},
           {name: "Chips", quantity: 4},
-          {name: "Sugary Drinks", quantity: 5}];
+          {name: "Sugary Drinks", quantity: 5},
+          {name: "Bread", quantity: 1},
+          {name: "Milk", quantity: 5}];
       var boughtItems = [];
 
       service.getToBuyItems = function() {
